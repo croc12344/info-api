@@ -1,18 +1,18 @@
 # Documentation
 
-All VVS pairs consist of two different tokens. CRO is not a native currency in VVS, and is represented only by WCRO in the pairs. 
+All MMF pairs consist of two different tokens. CRO is not a native currency in MMF, and is represented only by WCRO in the pairs. 
 
-The canonical WCRO address used by the VVS interface is `0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23`.
+The canonical WCRO address used by the MMF interface is `0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23`.
 
 Results may not be up-to-date.
 
-## [`/summary`](https://api.vvs.finance/info/api/summary)
+## [`/summary`](https://api.mm.finance/api/summary)
 
-Returns data for the top ~1000 VVS pairs, sorted by reserves. 
+Returns data for the top ~1000 MMF pairs, sorted by reserves. 
 
 ### Request
 
-`GET https://api.vvs.finance/info/api/summary`
+`GET https://api.mm.finance/api/summary`
 
 ### Response
 
@@ -32,13 +32,13 @@ Returns data for the top ~1000 VVS pairs, sorted by reserves.
 }
 ```
 
-## [`/tokens`](https://api.vvs.finance/info/api/tokens)
+## [`/tokens`](https://api.mm.finance/api/tokens)
 
-Returns the tokens in the top ~1000 pairs on VVS, sorted by reserves.
+Returns the tokens in the top ~1000 pairs on MMF, sorted by reserves.
 
 ### Request
 
-`GET https://api.vvs.finance/info/api/tokens`
+`GET https://api.mm.finance/api/tokens`
 
 ### Response
 
@@ -57,13 +57,13 @@ Returns the tokens in the top ~1000 pairs on VVS, sorted by reserves.
 }
 ```
 
-## [`/tokens/0x...`](https://api.vvs.finance/info/api/tokens/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03)
+## [`/tokens/0x...`](https://api.mm.finance/api/tokens/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03)
 
 Returns the token information, based on address.
 
 ### Request
 
-`GET https://api.vvs.finance/info/api/tokens/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03`
+`GET https://api.mm.finance/api/tokens/0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03`
 
 ### Response
 
@@ -79,13 +79,13 @@ Returns the token information, based on address.
 }
 ```
 
-## [`/pairs`](https://api.vvs.finance/info/api/pairs)
+## [`/pairs`](https://api.mm.finance/api/pairs)
 
-Returns data for the top ~1000 VVS pairs, sorted by reserves.
+Returns data for the top ~1000 MMF pairs, sorted by reserves.
 
 ### Request
 
-`GET https://api.vvs.finance/info/api/pairs`
+`GET https://api.mm.finance/api/pairs`
 
 ### Response
 
